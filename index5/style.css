@@ -1,0 +1,61 @@
+body{
+	background-color: black;
+}
+.one{
+	height: 50%;
+	width: 100%;
+	font-size: 280%;
+	background-color: black;
+	text-align: center;
+	margin: 10px;
+    padding:20px;
+	font-family: "Lobster", cursive;
+	color: #8B06FF;
+}
+p{
+	color: #E5E5E5;
+	font-family: "Noto Sans TC", sans-serif;
+	text-align: center;
+}
+.but {
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    background-color: #8B06FF;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #E5E5E5;
+    font-size: 100%;
+}
+.whole {
+    position: relative;
+}
+.text {
+  background-color: #8B06FF;
+  color: #E5E5E5;
+  font-size: 30px;
+  padding: 16px;
+
+}
+.image {
+  display: block;
+  width: 100%;
+}
+.whole:hover .image {
+  opacity: 0.5;
+}
+
+.inside {
+  transition: .5s ease;
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  top: 50%;
+  right: 50%;
+}
+
+.whole:hover .inside {
+  opacity: 2;
+}
+#here{
+	display: none;
+}
